@@ -16,7 +16,7 @@ Previously, the employer faced issues where unauthorized individuals were added 
 - Each new employee is tagged with the ID of the person who registered them.
 - This prevents payroll fraud and ensures only real employees get paid.
 
-##Features
+## Features
 
 - **✅ Secure Employee Registration** – Only authorized personnel can add employees.
 - **✅ User Accountability** – Every added employee is linked to their registrar.
