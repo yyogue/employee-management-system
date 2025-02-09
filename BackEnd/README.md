@@ -12,16 +12,16 @@ This project helps employers securely manage their employees, preventing unautho
 
 Previously, the employer faced issues where unauthorized individuals were added to the payroll, leading to financial losses. With this system:
 
--- Only a few trusted users can add new employees.
--- Each new employee is tagged with the ID of the person who registered them.
--- This prevents payroll fraud and ensures only real employees get paid.
+- Only a few trusted users can add new employees.
+- Each new employee is tagged with the ID of the person who registered them.
+- This prevents payroll fraud and ensures only real employees get paid.
 
 ##Features
 
-✅ Secure Employee Registration – Only authorized personnel can add employees.
-✅ User Accountability – Every added employee is linked to their registrar.
-✅ Fraud Prevention – No more paying ghost employees.
-✅ Role-Based Access – Different levels of access for security.
+- **✅ Secure Employee Registration** – Only authorized personnel can add employees.
+- **✅ User Accountability** – Every added employee is linked to their registrar.
+- **✅ Fraud Prevention** – No more paying ghost employees.
+- **✅ Role-Based Access** – Different levels of access for security.
 
 ## Technologies Used
 
