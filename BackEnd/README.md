@@ -4,11 +4,11 @@ Certainly! Here's a simple README file for your project:
 
 # Employee Management System 🏢🔒
 
-##Overview
+## Overview
 
 This project helps employers securely manage their employees, preventing unauthorized payments and fraud. The system ensures that only authorized personnel can add new employees, and each employee is linked to the person who registered them, creating full accountability.
 
-##Problem Solved
+## Problem Solved
 
 Previously, the employer faced issues where unauthorized individuals were added to the payroll, leading to financial losses. With this system:
 
