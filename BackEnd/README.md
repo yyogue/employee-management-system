@@ -1,7 +1,3 @@
-Certainly! Here's a simple README file for your project:
-
----
-
 # Employee Management System 🏢🔒
 
 ## Overview
