@@ -1,8 +1,10 @@
+require('dotenv').config()
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const personnelRouter = require('./routes/personnel-routes');
 const adminRouter = require('./routes/admin-routes');
+
 
 const app = express();
 
@@ -14,9 +16,7 @@ app.use(express.json());
 app.use('/api/personnel', personnelRouter);
 app.use('/api/admin', adminRouter);
 
-mongoose.connect(
-  'mongodb+srv://decyoussoufit:Kin00243!@decmining.1nsji.mongodb.net/DecMining?retryWrites=true&w=majority'
-)
+mongoose.connect(process.env.MONGO_URI)
 .then(() => {
   app.listen(8080, () => {
     console.log('API running on port 8080');
