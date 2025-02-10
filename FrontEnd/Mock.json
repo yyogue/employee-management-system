@@ -1,0 +1,4 @@
+{
+  "hr": [{ "id": 1, "email": "yousyogue@gamil.com", "motDePasse": "password" }],
+  "employe": [{ "id": 1, "name": "John Doe", "hrId": 1 }]
+}

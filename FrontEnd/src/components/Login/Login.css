@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.formLogin, .login, .error {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.formLogin input, .formLogin button {
+  margin-bottom: 10px; /* Add some space between the input fields and the button */
+  width: 100%; /* Make the input fields and button take up the full width of the form */
+  max-width: 300px; /* Limit the width to 300px */
+  padding: 10px; /* Add padding to the input fields and button */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+.login{
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.mainLogin{
+  display: grid;
+  padding: 22%; /* Adjusted padding for better layout */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+button {
+  cursor: pointer;
+  background-color: #4CAF50; /* Add a background color to the button */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px; /* Increase the font size */
+}
+
+button:hover {
+  background-color: #45a049; /* Button hover effect */
+}
+
+.error {
+  margin-top: 10px; /* Space between the error message and the button */
+}
