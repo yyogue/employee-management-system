@@ -1,0 +1,13 @@
+.dec-class {
+    color: blue;
+    font-weight: bolder;
+  }
+  
+  .consult-class {
+    color: black;
+    font-weight: bolder;
+  }
+
+  #NavBarId{
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+  }
