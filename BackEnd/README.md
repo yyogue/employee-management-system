@@ -32,13 +32,13 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Yogue1997/blogBackEndNodeApi.git
+   git clone https://github.com/Yogue1997/employee-management-backend.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd blogBackEndNodeApi
+   cd employee-management-backend
    npm install
    ```
 
@@ -62,8 +62,3 @@ In the future, the project will be expanded with the following technologies:
 - **React.js:** A JavaScript library for building user interfaces. It will be used for creating a dynamic and interactive frontend.
 - **React Native:** A framework for building mobile applications using React. It will be used to extend the project to mobile platforms.
 
-## Acknowledgments
-
-I would like to express my gratitude to the community and resources that have helped me learn and build this project. It's my current most proud accomplishment in my learning journey, and I look forward to the future development of this blog platform.
-
----
